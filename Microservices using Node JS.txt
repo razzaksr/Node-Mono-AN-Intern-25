@@ -80,6 +80,34 @@ filter
 
 
 
+Java Script Object Notation >> JSON
+{
+"key": value,
+"key": value
+}
+
+Student:
+{
+"name": "Sriram",
+"regno": "25D001",
+"dept": "AIML",
+"contact":{
+"email":"sjdbvjd@dfj.com",
+"mobile":765456789,
+"isTemporaryAddress": false,
+}
+}
+
+
+[
+{},
+{},
+{}
+]
+
+
+
+
 
 
 
