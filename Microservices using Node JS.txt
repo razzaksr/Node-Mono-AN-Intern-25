@@ -1,0 +1,110 @@
+Microservices using Node JS
+
+	Web application
+		UI/ Presentation/ Front end
+		API/ Business/ Back end
+		Data End
+
+https://www.amazon.in/s?k=router&crid=392GNPR8FX16O&sprefix=router%2Caps%2C236&ref=nb_sb_noss_2
+
+
+Node	>> SDK
+
+java script create and run
+
+
+data store:
+	var, const, let
+
+operations: CRUD, Validation, Processing
+
+
+output:
+print()
+System.out.println()
+cout
+printf
+
+console.log()
+
+input:
+scanf
+Scanner
+input
+cin
+
+library: prompt-sync
+prompt()
+
+
+
+functions:
+
+in built: Window.assign, console.log,........
+user defined:
+function funName(){
+	
+}
+
+arrow functions:
+const/let/var funName = () => {
+	
+}
+
+
+storage logics:
+temporary:
+var/const/let
+list/array
+
+perm:
+files
+databases
+
+
+
+
+
+Array: CRUD
+
+redbus
+mybookings>> read
+booking		> create
+cancel		> update
+
+CRUD:
+push
+pop
+map
+filter
+
+
+
+
+
+
+
+
+
+
+Monolithic backend application:
+use case:
+UrbanClap: Web app
+	Provider/ person	>> providerId, providerName, providerUsername, providerPassword, providerContact, providerExperience, serviceId
+	Service			>> serviceId, serviceName, serviceDescription, serviceCost
+
+MERN
+Node JS>> sdk
+frameworks:
+	Express JS
+database:
+	MongoDB
+client:
+	Rest Client>> VS Code extension
+Authentication:
+	Json Web Token
+
+install dependencies:
+npm i express body-parser mongoose nodemon
+
+
