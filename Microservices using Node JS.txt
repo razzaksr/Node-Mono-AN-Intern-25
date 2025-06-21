@@ -106,6 +106,81 @@ Student:
 ]
 
 
+CRUD:
+Hackathon event:
+	Participants: list of json's
+		name, department, college, rollno, contact
+	event name
+	event organizer
+	winner
+	first-runner
+	second-runner
+	
+structurise:
+	data.json >> storing data
+	process.js>> CRUD operation functions
+	host.js	>> Calling process.js functions
+
+
+
+CRUD:
+Menu driven application:
+
+create new hackathon
+add participants into the specific hackathon
+announce reward holders in the specific hackathon
+remove hackathon
+
+
+Task:
+kart operations: []
+{pro-name,pro-price,pro-nature}
+
+1.add items to kart
+2.remove specific item from kart
+3.update price of the specific item in the kart
+4.view specific nature of the items from kart
+5.view specific price range between user given min value and user give max value from the kart
+
+
+URL based calling:
+/event/new		>> newHackathon
+/event/view		>> viewHackathons
+.
+.
+.
+
+Backend/ Application Server/ Express JS(framework)
+controller: url mapping functions
+post		>> newHackathon
+get		>> viewHackathons
+put		>> enroll, announce
+delete	>> delete
+
+
+Project:
+	package.json	>> project name, version, dependencies
+	package-lock.json	>> node_modules, detailed information
+	node_modules:>> physical installed library files
+
+to create project
+	npm init  >> create a project
+		name, version, ....
+	npm init -y>> immediate project with opened folder as name of the project
+
+dependencies:
+	express>> server/ api
+	nodemon	> developer tools/ auto restart
+	mongoose> driver to connect mongodb
+	body-parser>> extract and read request body data
+
+
+client:
+ rest client>> vs code extension
+
+
+
+
 
 
 
